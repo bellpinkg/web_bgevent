@@ -72,3 +72,10 @@ function renderAvatar(user) {
 
 
 }
+
+// 这是我自己添加的，老师源代码中没有写
+// 定义从发表文章跳转到文章列表时侧边栏样式的切换方法
+function changeSideStatus() {
+    $('#rmv').removeClass('layui-this')
+    $('#change').addClass('layui-this')
+}

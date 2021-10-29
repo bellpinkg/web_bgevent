@@ -55,3 +55,7 @@ iframe {
     font-size: 20px;
     color: #fff;
 }
+
+.layui-nav-item a {
+    font-size: 12px;
+}
